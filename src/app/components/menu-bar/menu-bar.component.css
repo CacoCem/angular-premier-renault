@@ -1,0 +1,77 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-bar__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 380px;
+  margin-right: 380px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.menu-bar__logo img {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 20px;
+}
+
+.phone-button {
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.menu-bar__top2 {
+  background-color: black;
+}
+
+.menu-items > ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: space-between;
+  margin-left: 380px;
+  margin-right: 380px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-items li {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-items li:hover {
+  background-color: #efdf00;
+  color: black;
+}
+
+.btn-carousel {
+  background-color: #efdf00;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+}
