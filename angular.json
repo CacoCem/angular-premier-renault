@@ -90,12 +90,16 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cb8f9d61-b0f9-48d7-a2ca-63bd80badcb5"
   }
 }
