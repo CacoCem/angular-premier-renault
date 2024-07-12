@@ -50,3 +50,46 @@
 .active {
   opacity: 1;
 }
+
+
+.btn-carousel {
+  border: 1px red solid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #f0e21b;
+  text-align: center;
+  background: 0 0;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 0;
+}
+
+.btn-next {
+  right: 0;
+}
+
+.icon-carousel {
+  color: #f0e21b;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  font-size: 4em;
+}
+
+.icon-carousel:hover {
+  color: #f0e21b;
+  opacity: 1;
+}
+
+
+.icon-carousel:active {
+  color: #f0e21b;
+  opacity: 0.5;
+}
