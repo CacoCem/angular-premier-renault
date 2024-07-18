@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 import { CarouselComponent } from '../../components/carousel/carousel.component';
+import { CarouselSecondaryComponent } from '../../components/carousel-secondary/carousel-secondary.component';
+CarouselSecondaryComponent
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MenuBarComponent,CarouselComponent],
+  imports: [MenuBarComponent,CarouselComponent, CarouselSecondaryComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

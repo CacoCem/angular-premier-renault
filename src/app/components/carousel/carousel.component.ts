@@ -18,7 +18,7 @@ export class CarouselComponent {
   @Input() indicators = true;
   @Input() controls = true;
   @Input() autoSlide = false;
-  @Input() slideInterval = 1000;
+  @Input() slideInterval = 5000;
 
   selectedIndex = 0;
   private autoSlideInterval: any;

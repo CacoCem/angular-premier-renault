@@ -1,0 +1,32 @@
+<div class="container__carousel-secondary">
+  <div class="container">
+    <div class="carousel-row">
+      <div class="carousel-secondary__title">
+        <h1 class="title">
+          CLIQUE E CONFIRA AS NOSSAS OFERTAS
+        </h1>
+      </div>
+      <div class="carousel-secondary__carousel">
+
+        <p-carousel [value]="images" [numVisible]="4" [numScroll]="4">
+          <ng-template pTemplate="item" let-image>
+            <div class="card-container">
+              <div class="card">
+                <div class="title">
+                  <h3>TESTE</h3>
+                </div>
+                <img [src]="image.imgSrc" [alt]="image.imgAlt">
+                <div class="card-content">
+                  <span class="text-prime-from">From:</span>
+                  <p class="text-price-to">$199</p>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </p-carousel>
+
+
+      </div>
+    </div>
+  </div>
+</div>

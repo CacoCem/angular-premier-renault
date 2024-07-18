@@ -1,0 +1,36 @@
+.container__carousel-secondary {
+  background-color: #1d1d1b;
+  padding-top: 1.5rem !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-secondary__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.title {
+  font-size: 25px;
+  color: white;
+  padding-top: .5rem !important;
+  margin-bottom: .5rem !important;
+}
+
+.card {
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative
+}
